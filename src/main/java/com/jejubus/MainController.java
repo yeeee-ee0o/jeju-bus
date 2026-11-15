@@ -23,4 +23,9 @@ public class MainController {
     public String signupPage() {
         return "signup"; // templates/signup.html을 렌더링
     }
+    // 실시간 버스 도착 정보 페이지 (http://localhost:8080/bus-arrival)
+    @GetMapping("/bus-arrival")
+    public String busArrivalPage() {
+        return "arrival"; // templates/arrival.html 파일을 렌더링
+    }
 }
