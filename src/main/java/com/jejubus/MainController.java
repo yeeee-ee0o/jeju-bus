@@ -33,4 +33,9 @@ public class MainController {
     public String recommendPage() {
         return "recommend"; // templates/recommend.html 파일을 렌더링
     }
+    // 이용 후기 페이지 (http://localhost:8080/review)
+    @GetMapping("/review")
+    public String reviewPage() {
+        return "review"; // templates/review.html 파일을 렌더링
+    }
 }
