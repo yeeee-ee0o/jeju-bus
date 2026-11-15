@@ -38,4 +38,9 @@ public class MainController {
     public String reviewPage() {
         return "review"; // templates/review.html 파일을 렌더링
     }
+    // 검색 결과 페이지 (http://localhost:8080/search)
+    @GetMapping("/search")
+    public String searchPage() {
+        return "search"; // templates/search.html 파일을 렌더링
+    }
 }
