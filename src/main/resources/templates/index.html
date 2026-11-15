@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEJU BUS - 제주를 이동하는 가장 쉬운 방법</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- 상단 네비게이션 바 -->
+<header class="navbar">
+    <div class="logo">
+        <a href="/" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 8px;">
+            <span class="bus-icon">🚌</span> JEJU BUS
+        </a>
+    </div>
+
+    <!-- 네비게이션 메뉴 및 회원가입/로그인 버튼 추가 -->
+    <nav class="nav-links">
+        <a href="/route-search">노선 검색</a>
+        <a href="/bus-arrival">정류장 검색</a>
+        <a href="/favorites">즐겨찾기</a>
+        <span class="nav-divider">|</span>
+        <a href="/login">로그인</a>
+        <a href="/signup" class="nav-signup-btn">회원가입</a>
+    </nav>
+
+    <div class="weather-info">
+        ☀️ 제주도 22°C
+    </div>
+</header>
+
+<!-- 메인 히어로 섹션 (배경 일러스트 포함) -->
+<main class="hero-section">
+    <div class="hero-content">
+        <h1>제주를 이동하는 가장 쉬운 방법 🤍</h1>
+        <p>JEJU BUS와 함께하는 스마트한 제주 여행!</p>
+
+        <!-- 검색바 영역 -->
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" placeholder="버스 번호 또는 정류장을 검색해보세요!">
+            <button class="search-btn">검색</button>
+        </div>
+
+        <!-- 주요 메뉴 카드 3개 -->
+        <div class="menu-cards">
+            <a href="/bus-arrival" class="card-item">
+                <div class="card-icon">🚌</div>
+                <span>버스 노선 검색</span>
+            </a>
+            <a href="/route-search" class="card-item">
+                <div class="card-icon">📍</div>
+                <span>정류장 검색</span>
+            </a>
+            <a href="/favorites" class="card-item">
+                <div class="card-icon">⭐</div>
+                <span>즐겨찾기</span>
+            </a>
+        </div>
+
+        <!-- 자주 찾는 버스 퀵메뉴 -->
+        <div class="quick-bus-section">
+            <span class="quick-title">자주 찾는 버스</span>
+            <div class="bus-badge-list">
+                <button class="bus-badge">201번</button>
+                <button class="bus-badge">202번</button>
+                <button class="bus-badge">600번</button>
+                <button class="bus-badge">701번</button>
+                <span class="next-arrow">&gt;</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 하단 안내 문구 -->
+    <div class="footer-greeting">
+        제주 버스와 함께,<br>더 즐거운 제주 여행 되세요! 🙂
+    </div>
+</main>
+
+</body>
+</html>
