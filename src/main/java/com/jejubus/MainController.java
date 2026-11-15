@@ -43,4 +43,15 @@ public class MainController {
     public String searchPage() {
         return "search"; // templates/search.html 파일을 렌더링
     }
+    // 정류장 검색 페이지
+    @GetMapping("/station-search")
+    public String stationSearchPage() {
+        return "station-search"; // templates/station-search.html 파일과 연결
+    }
+
+    // 즐겨찾기 페이지
+    @GetMapping("/bookmark")
+    public String bookmarkPage() {
+        return "bookmark"; // templates/bookmark.html 파일과 연결
+    }
 }
