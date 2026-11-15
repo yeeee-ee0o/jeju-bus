@@ -28,4 +28,9 @@ public class MainController {
     public String busArrivalPage() {
         return "arrival"; // templates/arrival.html 파일을 렌더링
     }
+    // 여행지 추천 페이지 (http://localhost:8080/recommend)
+    @GetMapping("/recommend")
+    public String recommendPage() {
+        return "recommend"; // templates/recommend.html 파일을 렌더링
+    }
 }
