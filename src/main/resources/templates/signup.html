@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEJU BUS - 회원가입</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- 상단 네비게이션 바 -->
+<header class="navbar">
+    <div class="logo">
+        <a href="/" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 8px;">
+            <span class="bus-icon">🚌</span> JEJU BUS
+        </a>
+    </div>
+    <div class="nav-links">
+        <a href="/login">로그인</a>
+    </div>
+</header>
+
+<!-- 메인 컨텐츠 영역 -->
+<main class="hero-section" style="padding: 30px 20px;">
+    <div class="hero-content" style="max-width: 520px;">
+        <h1>편리한 JEJU BUS 이용을 위해<br>회원가입을 진행해 주세요</h1>
+        <p style="margin-bottom: 15px;"></p>
+
+        <!-- 회원가입 카드 폼 -->
+        <div class="auth-card">
+            <form action="/signup" method="post">
+                <div class="input-group">
+                    <label>아이디</label>
+                    <input type="text" placeholder="아이디를 입력하세요" required>
+                </div>
+
+                <div class="input-group">
+                    <label>비밀번호</label>
+                    <input type="password" placeholder="비밀번호를 입력하세요" required>
+                </div>
+
+                <div class="input-group">
+                    <label>비밀번호 확인</label>
+                    <input type="password" placeholder="비밀번호 확인 하세요" required>
+                </div>
+
+                <div class="input-group">
+                    <label>이메일</label>
+                    <input type="email" placeholder="이메일을 입력하세요" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>성명</label>
+                        <input type="text" placeholder="성명" required>
+                    </div>
+                    <div class="input-group">
+                        <label>휴대폰 번호</label>
+                        <input type="tel" placeholder="휴대폰 번호" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="auth-submit-btn">회원가입 완료</button>
+                <a href="/login" class="auth-sub-btn" style="display: block; text-align: center; text-decoration: none;">로그인</a>
+            </form>
+        </div>
+    </div>
+
+    <!-- 하단 안내 문구 -->
+    <div class="footer-greeting" style="margin-top: 20px;">
+        제주 버스와 함께,<br>더 즐거운 제주 여행 되세요! 🙂
+    </div>
+</main>
+
+</body>
+</html>
+```[cite: 4]
